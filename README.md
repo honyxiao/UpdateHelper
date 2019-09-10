@@ -1,3 +1,24 @@
+> 由于原作者已经很久没有更新，我 fork 了项目并修复了安卓最新版本一些兼容性问题，提交在 [gitlab](https://gitlab.com/xiaokunyu/UpdateHelper) 上。
+
+# 更新日志：
+
+## 2019-09-10
+
+1，兼容 android 7-9
+
+    - 修复通知栏不显示的问题（添加通道）
+    
+    - 修复点击通知栏不会弹出应用安装界面的问题（添加权限及 intent flag）
+    
+    - 修复下载完后闪退问题（uri 方式: file -> FileProvider）
+    
+2，修复一些其他小 bug
+
+
+
+
+
+
 # UpdateHelper
 [![Travis](https://img.shields.io/badge/build-passing-blue.svg)](h) [![Hex.pm](https://img.shields.io/hexpm/l/plug.svg)]() [![Hex.pm](https://img.shields.io/badge/Release-v1.0-blue.svg)]()
 
